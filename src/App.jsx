@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <main className="bg-slate-300/20 h-full">
-      <Router>
+      <Router basename="/react_three_app_demo/">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
