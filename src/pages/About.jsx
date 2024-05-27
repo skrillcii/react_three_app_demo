@@ -19,8 +19,8 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Machine Learning Engineer based in Tokyo, specializing in AI, Cloud
-          and Robotics.
+          Machine L[100vh] h-earning Engineer based in Tokyo, specializing in
+          AI, Cloud and Robotics.
         </p>
       </div>
 
