@@ -1,4 +1,5 @@
 {
+  "homepage": "http://skrillcii.github.io/3d_app_demo/",
   "name": "03_3d_app_demo",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
+    "redeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
