@@ -1,6 +1,6 @@
 {
-  "homepage": "http://skrillcii.github.io/3d_app_demo/",
-  "name": "03_3d_app_demo",
+  "homepage": "http://skrillcii.github.io/react_three_app_demo/",
+  "name": "react_three_app_demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
