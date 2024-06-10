@@ -5,10 +5,10 @@ const Navbar = () => {
     <header className="header">
       <NavLink
         to="/"
-        className="w-10 h-10 rounded-lg bg-white items-center
+        className="w-20 h-10 rounded-lg bg-white items-center
         justify-center flex font-bold shadow-md"
       >
-        <p className="blue-gradient_text">SK</p>
+        <p className="blue-gradient_text">Home</p>
       </NavLink>
 
       <nav className="flex test-lg gap-7 font-medium">

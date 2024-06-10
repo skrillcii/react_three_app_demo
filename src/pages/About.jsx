@@ -19,8 +19,8 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Machine L[100vh] h-earning Engineer based in Tokyo, specializing in
-          AI, Cloud and Robotics.
+          Currently working as a Machine Learning Engineer based in Tokyo,
+          specializing in AI, Cloud and Robotics.
         </p>
       </div>
 
@@ -32,6 +32,7 @@ const About = () => {
               <div className="btn-back rounded-xl" />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
+                  title={skill.name}
                   src={skill.imageUrl}
                   alt={skill.name}
                   className="w-1/2 h-1/2 object-contain"
@@ -93,7 +94,7 @@ const About = () => {
                 contentStyle={{
                   borderBottom: "8px",
                   borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: experience.borderBottmBg,
                   boxShadow: "none",
                 }}
               >
@@ -105,7 +106,8 @@ const About = () => {
                     className="text-black-500 font-medium font-base"
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {experience.company_name} / {experience.date} /{" "}
+                    {experience.duration}
                   </p>
                 </div>
 
